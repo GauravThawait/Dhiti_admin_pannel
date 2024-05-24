@@ -17,6 +17,7 @@ function ProtectedRoute({ children }) {
 }
 
 function App() {
+  
   return (
     <div>
       <NavBar/>
@@ -31,6 +32,7 @@ function App() {
           element={<ProtectedRoute><Home/>></ProtectedRoute>}
         />
         <Route path="/Blogs" element={<ProtectedRoute><Allblogs /></ProtectedRoute>} />
+
         <Route
           path="/Readblog/:slug"
           element={<ProtectedRoute><Readblog /></ProtectedRoute>}
