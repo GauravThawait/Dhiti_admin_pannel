@@ -146,12 +146,12 @@ function Createproject() {
             onChange={handleInputChange}
           >
             <option value="">----Select----</option>
-            <option value="water">Water</option>
-            <option value="food">Food</option>
-            <option value="health">Health Care</option>
-            <option value="livelihood">livelihood</option>
             <option value="education">Education</option>
-            <option value="residence">Recidence</option>
+            <option value="youth-welfare">Youth Welfare</option>
+            <option value="environment-one-health"> Environment & One Health</option>
+            <option value="health-campaign">Health and Campaign</option>
+        
+          
 
 
 
